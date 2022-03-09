@@ -1,0 +1,21 @@
+//Write a program to read a matrix of size m x n form the keyboard and display the same using functions.
+#include<iostream>
+using namespace std;
+int main()
+{
+int z[8][8],n,m,i,j;
+cout<<"Enter value of m and n:"; //Enter the value of the matrix in rows and column in the value of m and n respectively.
+cin>>m>>n;
+cout<<"\nEnter elemets of the matrix:\n"; //Enter the elements of matrix. 
+for(i=0;i<m;++i)
+for(j=0;j<n;++j)
+cin>>z[i][j];
+cout<<"The Matrix is:\n"; //User will get the matrix for the entered elements.
+for(i=0;i<m;++i)
+{
+for(j=0;j<n;++j)
+cout<<z[i][j]<<" ";
+cout<<"\n";
+}
+return 0;
+}
