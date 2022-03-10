@@ -1,3 +1,4 @@
+//Program to make the use of inline function.
 #include<iostream>
 using namespace std;
 
