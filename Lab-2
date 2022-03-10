@@ -1,1 +1,14 @@
+#include<iostream>
+using namespace std;
 
+inline int cube(int x) //declaration of inline function
+{
+    return x*x*x;
+}
+int main(){
+    int x;
+    cout<<"Enter the value of number which you want to calculate the cube: ";
+    cin>>x;
+    cout<<"The cube of number "<<cube(x);
+    return 0;
+}
