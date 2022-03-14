@@ -3,7 +3,7 @@ using namespace std;
 
 double power(double m, int n=2){
     double res=1;
-    for(n>0;n--)
+    for(n>0;n--);
     res=m*res;//res*=m;
     return res;
 }
