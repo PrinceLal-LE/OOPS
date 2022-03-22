@@ -28,7 +28,7 @@ int square(int m){
 int main(){
     power A;
     int m,result;
-    cout<<"enter m: "<<endl;
+    cout<<"enter m: ";
     cin>> m;
     A.square(m);
     return 0;
