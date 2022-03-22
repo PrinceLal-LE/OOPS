@@ -13,6 +13,6 @@ int main()
     cout<<"Enter the value of M: ";
     cin>>m;
     //cout<<m<<"to the power of "<<n<<"is: "<<power(m,n);
-    cout<<"The square of M "<<power(m);
+    cout<<"The square of "<<m<<" is: "<<power(m);
     return 0;
 }
