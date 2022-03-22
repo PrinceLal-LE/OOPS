@@ -6,7 +6,7 @@ class power {
       int result=1;
       int m,n;
     void display(){
-        cout<<"result is"<<result;
+        cout<<"result is "<<result;
     }
     int calsquare(int m,int n){
         for(int i=1;i<=n;i++){
@@ -28,7 +28,7 @@ int square(int m){
 int main(){
     power A;
     int m,result;
-    cout<<"enter m"<<endl;
+    cout<<"enter m: "<<endl;
     cin>> m;
     A.square(m);
     return 0;
