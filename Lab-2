@@ -10,6 +10,6 @@ int main(){
     int x;
     cout<<"Enter the value of number which you want to calculate the cube: ";
     cin>>x;
-    cout<<"The cube of number "<<cube(x);
+    cout<<"The cube of number "<<x<<" is: "<<cube(x);
     return 0;
 }
