@@ -9,7 +9,7 @@ class shoe
             cout<<"Khadims is one of the famous brand in shoe. "<<endl;
         }
 };
-class Redchief : public Khadims
+class Redchief : public shoe
 {
     public: 
         Redchief()
